@@ -1,6 +1,6 @@
-name: Bug Report - Craft 4
-description: Report an issue or unexpected behavior in Sprout for Craft 4
-labels: [ "c4", "bug" ]
+name: Bug Report - Craft 3
+description: Report an issue or unexpected behavior in Sprout for Craft 3
+labels: [ "c3", "bug" ]
 body:
   - type: textarea
     id: description
