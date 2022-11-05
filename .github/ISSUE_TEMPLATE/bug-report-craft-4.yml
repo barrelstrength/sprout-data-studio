@@ -15,7 +15,7 @@ body:
     attributes:
       label: How to reproduce
       description: |
-        Without a way to easily reproduce your issue, there is little chance we will be able to help you and work on a fix. Please, take the time to show us some code and/or config that is needed for others to reproduce the problem easily. Walk us through how to create your issue step-by-step and any solutions you've considered.
+        Without a way to easily reproduce your issue, there is little chance we will be able to help you and work on a fix. Please, take the time to show us some code and/or config that is needed for others to reproduce the problem easily. Walk us through how to create your issue step-by-step and describe any solutions you've considered.
     validations:
       required: true
   - type: input
