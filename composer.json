@@ -1,0 +1,22 @@
+{
+    "name": "barrelstrength/sprout-data-studio",
+    "type": "craft-plugin",
+    "version": "0.0.1",
+    "require": {
+        "barrelstrength/sprout": "^0"
+    },
+    "autoload": {
+        "psr-4": {
+            "BarrelStrength\\SproutDataStudio\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Sprout Data Studio",
+        "handle": "sprout-data-studio",
+        "developer": "Barrel Strength Design",
+        "developerUrl": "https://barrelstrengthdesign.com",
+        "developerEmail": "support@barrelstrengthdesign.com",
+        "documentationUrl": "https://barrelstrengthdesign.com",
+        "class": "BarrelStrength\\SproutDataStudio\\SproutDataStudio"
+    }
+}
