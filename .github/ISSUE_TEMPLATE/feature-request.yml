@@ -1,6 +1,6 @@
 name: Feature Request
 description: Share an idea for a feature or describe an example that would improve the documentation
-labels: [ "cX", "feature", "under review" ]
+labels: [ "cX", "feature" ]
 body:
   - type: textarea
     id: description
