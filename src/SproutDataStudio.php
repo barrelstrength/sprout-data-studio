@@ -19,9 +19,6 @@ use yii\base\InvalidConfigException;
 
 class SproutDataStudio extends Plugin implements SproutPluginMigrationInterface
 {
-    public const EDITION_LITE = 'lite';
-    public const EDITION_PRO = 'pro';
-
     public string $minVersionRequired = '3.10.1';
 
     /**
@@ -30,8 +27,8 @@ class SproutDataStudio extends Plugin implements SproutPluginMigrationInterface
     public static function editions(): array
     {
         return [
-            self::EDITION_LITE,
-            self::EDITION_PRO,
+            Edition::LITE,
+            Edition::PRO,
         ];
     }
 
@@ -59,7 +56,7 @@ class SproutDataStudio extends Plugin implements SproutPluginMigrationInterface
         Event::on(
             Modules::class,
             Modules::EVENT_REGISTER_SPROUT_AVAILABLE_MODULES,
-            function (RegisterComponentTypesEvent $event) {
+            static function(RegisterComponentTypesEvent $event) {
                 $event->types[] = DataStudioModule::class;
             }
         );
@@ -74,7 +71,7 @@ class SproutDataStudio extends Plugin implements SproutPluginMigrationInterface
 
     protected function grantModuleEditions(): void
     {
-        if ($this->edition === self::EDITION_PRO) {
+        if ($this->edition === Edition::PRO) {
             DataStudioModule::isEnabled() && DataStudioModule::getInstance()->grantEdition(Edition::PRO);
         }
     }
