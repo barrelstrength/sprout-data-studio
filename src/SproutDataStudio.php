@@ -19,7 +19,7 @@ use yii\base\InvalidConfigException;
 
 class SproutDataStudio extends Plugin implements SproutPluginMigrationInterface
 {
-    public string $minVersionRequired = '3.10.1';
+    public string $schemaVersion = '0.0.1';
 
     /**
      * @inheritDoc
@@ -46,8 +46,6 @@ class SproutDataStudio extends Plugin implements SproutPluginMigrationInterface
     {
         return SproutPluginMigrator::make($this);
     }
-
-    public string $schemaVersion = '0.0.1';
 
     public function init(): void
     {
