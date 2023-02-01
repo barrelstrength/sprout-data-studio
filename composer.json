@@ -1,7 +1,7 @@
 {
     "name": "barrelstrength/sprout-data-studio",
     "type": "craft-plugin",
-    "version": "0.0.1",
+    "version": "0.0.3",
     "require": {
         "barrelstrength/sprout": "^0"
     },
