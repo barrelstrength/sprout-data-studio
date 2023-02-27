@@ -2,10 +2,10 @@
 
 ## 4.44.444 - 2023-02-20
 
-### Changelog
-
 > **Tip**
 > See the [Update Guide][#400upgrade] before migrating to Craft 4
+
+### Updated
 
 - Requires `barrelstrength/sprout:4.0.0`
 - See Data Studio Module [release notes][#400datastudio]
