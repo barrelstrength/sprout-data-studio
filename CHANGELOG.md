@@ -7,13 +7,6 @@
 
 [#405datastudio]: https://github.com/barrelstrength/sprout/blob/4.0.5/CHANGELOG/CHANGELOG-DATA-STUDIO.md
 
-## 4.44.445 - 2023-03-20
-
-- Requires `barrelstrength/sprout:4.0.4`
-- See Data Studio Module [release notes][#404datastudio]
-
-[#404datastudio]: https://github.com/barrelstrength/craft-sprout/blob/4.0.4/CHANGELOG/CHANGELOG-DATA-STUDIO.md
-
 ## 4.44.444 - 2023-02-20
 
 > **Tip**
