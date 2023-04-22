@@ -6,7 +6,15 @@ Sprout Data Studio allows you to create interactive data sets from customizable 
 
 - [Documentation](https://sprout.barrelstrengthdesign.com/docs/data-studio/)
 - [Craft Plugin Store](https://plugins.craftcms.com/sprout-data-studio)
-- [Report issues][#issues], discuss [Feature Requests][#features], submit [Pull Requests][#pullrequests], and [Ask Questions][#questions] in the [main Sprout repository][#sprout].
+
+## Support
+
+Support for all Sprout plugins in managed in the [main Sprout Framework][#sprout] repository.
+
+- [Ask a question][#questions]
+- [Report an issue][#issues]
+- Share a [Feature Request][#features]
+- Submit a [Pull Request][#pullrequests]
 
 <a href="https://sprout.barrelstrengthdesign.com" target="_blank">
   <img src="https://s3.amazonaws.com/sprout.barrelstrengthdesign.com-assets/content/plugins/sprout-icon.svg" width="72" height="72" align="right">
