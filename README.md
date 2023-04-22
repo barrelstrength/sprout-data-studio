@@ -9,7 +9,7 @@ Sprout Data Studio allows you to create interactive data sets from customizable 
 
 ## Support
 
-Support for all Sprout plugins in managed in the [main Sprout Framework][#sprout] repository.
+Support for all Sprout Marketing Suite plugins is managed in the [main Sprout Framework][#sprout] repository.
 
 - [Ask a question][#questions]
 - [Report an issue][#issues]
