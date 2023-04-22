@@ -1,5 +1,11 @@
 blank_issues_enabled: false
 contact_links:
+  - name: Feature Request
+    url: https://github.com/barrelstrength/sprout/discussions/new?category=feature-requests
+    about: Start a discussion about your idea
+  - name: Support Question
+    url: https://github.com/barrelstrength/sprout/discussions/new?category=q-a
+    about: Ask your question on the Sprout discussion board
   - name: Documentation
     url: https://sprout.barrelstrengthdesign.com/docs/
     about: Read the official documentation
