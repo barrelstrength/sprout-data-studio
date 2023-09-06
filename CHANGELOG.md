@@ -1,5 +1,18 @@
 # Changelog
 
+## 4.46.0 - 2023-09-05
+
+> **Warning**
+> This release removes custom Source Groups in favor of managing Data Set Element groups via Craft's native Custom Sources. See the [Update Guide][#410upgrade] before migrating to Craft 4.
+
+- Requires `barrelstrength/sprout:4.1.0`
+- See Data Studio Module [release notes][#410datastudio]
+- See Sprout Framework Module [release notes][#410core]
+
+[#410upgrade]: https://sprout.barrelstrengthdesign.com/docs/craft-v4/updates/4.46.0-data-studio.html
+[#410datastudio]: https://github.com/barrelstrength/sprout/blob/4.1.0/CHANGELOG/CHANGELOG-DATA-STUDIO.md
+[#410core]: https://github.com/barrelstrength/sprout/blob/4.1.0/CHANGELOG/CHANGELOG-CORE.md
+
 ## 4.45.2 - 2023-06-29
 
 - Requires `barrelstrength/sprout:4.0.7`
@@ -35,6 +48,6 @@
 
 [#400upgrade]: https://sprout.barrelstrengthdesign.com/docs/craft-v4/updates/4.44.444-data-studio.html
 
-[#400datastudio]: https://github.com/barrelstrength/craft-sprout/blob/4.0.0/CHANGELOG/CHANGELOG-DATA-STUDIO.md
+[#400datastudio]: https://github.com/barrelstrength/sprout/blob/4.0.0/CHANGELOG/CHANGELOG-DATA-STUDIO.md
 
-[#400core]: https://github.com/barrelstrength/craft-sprout/blob/4.0.0/CHANGELOG/CHANGELOG-CORE.md
+[#400core]: https://github.com/barrelstrength/sprout/blob/4.0.0/CHANGELOG/CHANGELOG-CORE.md
