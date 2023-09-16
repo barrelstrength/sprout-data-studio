@@ -1,5 +1,13 @@
 # Changelog
 
+## 4.46.2 - 2023-09-14
+
+- Requires `barrelstrength/sprout:4.1.2`
+- See Core Module [release notes][#412core]
+
+[#412core]: https://github.com/barrelstrength/sprout/blob/4.1.2/CHANGELOG/CHANGELOG-CORE.md
+
+
 ## 4.46.1 - 2023-09-14
 
 - Requires `barrelstrength/sprout:4.1.1`
