@@ -1,10 +1,10 @@
 {
     "name": "barrelstrength/sprout-data-studio",
     "type": "craft-plugin",
-    "version": "4.46.3",
+    "version": "4.46.4",
     "license": "proprietary",
     "require": {
-        "barrelstrength/sprout": "^4.1.5",
+        "barrelstrength/sprout": "^4.1.7",
         "craftcms/cms": "^4.3.0"
     },
     "autoload": {

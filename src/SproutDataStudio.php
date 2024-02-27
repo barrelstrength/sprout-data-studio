@@ -17,7 +17,7 @@ use yii\base\Event;
 
 class SproutDataStudio extends Plugin implements SproutPluginMigrationInterface
 {
-    public string $schemaVersion = '4.44.444';
+    public string $schemaVersion = '4.44.445';
 
     public static function editions(): array
     {
